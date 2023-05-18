@@ -5,7 +5,6 @@ vim.cmd([[
 	syntax enable
 	filetype plugin indent on
 
-	Plug 'xiyaowong/nvim-transparent'
 	Plug 'lukas-reineke/indent-blankline.nvim'
 	"Plug 'ntk148v/vim-horizon'
 	Plug 'lunarvim/horizon.nvim'
@@ -27,7 +26,7 @@ vim.cmd([[
 	Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 	Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 	Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
-	
+
 	if has('nvim')
 	  function! UpdateRemotePlugins(...)
 	    " Needed to refresh runtime files
